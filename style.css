@@ -131,3 +131,29 @@
     padding: 24px 0;
     color: var(--off-white);
   }
+
+  @media screen and (max-width: 500px) {
+    nav{
+        display: grid;
+        text-align:center
+    }
+
+    nav > a.logo {
+        margin-right:unset
+    }
+
+    section.hero > .call-to-action {
+        font-size: 26px;
+    }
+
+    main > section, main >article {
+        padding: 10px;
+        margin-bottom: 10px
+    }
+
+    main > article img {
+        float:none;
+        display:block;
+        margin: 0 auto;
+    }
+}
